@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif ;
+}
+html,body{
+    overflow-x: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00cad1;
+    margin-bottom:-10px ;
+    
+}
+.logo img{
+    display: flex;
+    width: 90px;
+} 
+.sub{
+    display: flex;
+    margin: 0px;
+    gap: 10px;
+}
+.sub a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600px;
+}
+.sub a:hover{
+    color: black;
+}
+.img-fundo{
+    background-image: url(img/recepcao.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.titulo h1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 10px;
+    height: 500px;
+    color: #fff;
+}
+.sobre{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+.sobre-1 h2{
+    color: #00cad1;
+    text-align: center;
+}
+.sobre-1 p{
+    display: flex;
+    max-width: 1024px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.links{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1024px;
+    justify-content: center;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.imgs img{
+    width: 350px;
+    margin: 15px;
+    align-items: center;
+    
+    
+}
+.imgs figcaption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    width: 350px;
+    margin: 0 auto;
+}
+.lin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #00cad1;
+}
+.lin a{
+    text-decoration: none;
+    color: black;
+    
+}
+.lin:hover{
+    background-color: red;
+}
+.lin a:hover{
+    color:#fff;
+}
+.contato{
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+}
+iframe{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+footer{
+    
+    text-align: center;
+    background-color: #00cad1;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+
